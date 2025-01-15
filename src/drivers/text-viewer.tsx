@@ -30,6 +30,6 @@ export default function TextViewer({ src, onLoad, onError }: Props) {
     return () => {
       req.abort()
     }
-  }, [src])
+  }, [src, onLoad, onError])
   return <Container>{data}</Container>
 }

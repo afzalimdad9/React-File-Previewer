@@ -1,1 +1,1 @@
-declare module 'comma-separated-values'
+declare module '@afzalimdad9/comma-separated-values'

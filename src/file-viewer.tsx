@@ -55,13 +55,11 @@ export default function FileViewer({
   if (showError) {
     return (
       <div
-        style={
-          {
+        style={{
           width: '50px',
           height: '50px',
-          ...(containerErrorStyle || {})
-        }
-        }
+          ...(containerErrorStyle || {}),
+        }}
       >
         <FileIcon
           extension={MimeTypes.getExtension(fileType) ?? ''}

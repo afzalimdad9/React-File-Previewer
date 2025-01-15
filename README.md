@@ -16,7 +16,7 @@ Also, for unsupported files or when an error occurs, it falls back to using an i
 # Installation
 
 ```python
-npm i @codesmith-99/react-file-preview
+npm i @afzalimdad9/react-file-preview
 ```
 
 # Usage
@@ -26,7 +26,7 @@ Basic Usage
 
 ```javascript
 import React, { useState } from 'react'
-import FileViewer from '@codesmith-99/react-file-preview'
+import FileViewer from '@afzalimdad9/react-file-preview'
 
 export default function Demo() {
   const [file, setFile] = useState<string>('')

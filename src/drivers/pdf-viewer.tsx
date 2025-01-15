@@ -30,6 +30,6 @@ export default function PDFViewer({ src, onLoad, onError }: Props) {
     return () => {
       req.abort()
     }
-  }, [src])
+  }, [src, onLoad, onError])
   return <Iframe src={data}></Iframe>
 }

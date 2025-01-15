@@ -1,6 +1,6 @@
 {
-  "name": "@codesmith-99/react-file-preview",
-  "version": "1.0.36",
+  "name": "@afzalimdad9/react-file-preview",
+  "version": "1.0.37",
   "description": "",
   "source": "src/index.ts",
   "main": "dist/main.js",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbdulmueezEmiola/React-File-Previewer.git"
+    "url": "git+https://github.com/afzalimdad9/React-File-Previewer.git"
   },
   "files": [
     "dist",
@@ -42,7 +42,7 @@
     "video viewer",
     "doc viewer"
   ],
-  "author": "Abdulmueez Emiola",
+  "author": "afzalimdad9",
   "license": "MIT",
   "devDependencies": {
     "@parcel/packager-ts": "^2.8.2",
@@ -70,7 +70,7 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "comma-separated-values": "^3.6.4",
+    "@afzalimdad9/comma-separated-values": "^4.0.1",
     "mime": "^3.0.0",
     "react": "^18.2.0",
     "react-file-icon": "^1.3.0",

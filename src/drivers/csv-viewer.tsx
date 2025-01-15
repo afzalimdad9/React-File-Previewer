@@ -1,5 +1,5 @@
 import { memo, useEffect, useState } from 'react'
-import CSV from 'comma-separated-values'
+import CSV from '@afzalimdad9/comma-separated-values'
 import { TableVirtuoso } from 'react-virtuoso'
 import styled from 'styled-components'
 
@@ -30,7 +30,7 @@ const CSVViewer = ({ src, onError, onLoad }: Props) => {
     return () => {
       req.abort()
     }
-  }, [src])
+  }, [src, onLoad, onError])
 
   return (
     <TableVirtuoso

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import styled from 'styled-components'
 
 interface Props {
@@ -28,6 +28,6 @@ export default function HTMLViewer({ src, onLoad, onError }: Props) {
     return () => {
       req.abort()
     }
-  }, [src])
+  }, [src, onLoad, onError])
   return <Iframe src={`data:text/html; charset=utf-8,${encodeURIComponent(data)}`} sandbox=''></Iframe>
 }
